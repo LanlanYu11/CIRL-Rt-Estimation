@@ -42,10 +42,10 @@ This dataset is commonly used as a benchmark for validating time-varying ( R_t )
 
 The COVID-19 incidence data for Italy (Ontario-level aggregation, 2020) are sourced from:
 
-> Wang, L., Zhang, Y., & Wang, X. (2022).
+> Song, P., Xiao, Y. (2022).
 > *Estimating time-varying reproduction number by deep learning techniques*.
-> **Chaos, Solitons & Fractals**, 157, 111947.
-> DOI: [https://doi.org/10.1016/j.chaos.2022.111947](https://doi.org/10.1016/j.chaos.2022.111947)
+> **Journal of Applied Analysis & Computation**, 157, 111947.
+> DOI: [https://doi.org/10.1016/j.chaos.2022.111947](http://www.jaac-online.com/article/doi/10.11948/20220136)
 
 This dataset is used to demonstrate CIRL on real epidemic data characterized by reporting noise, over-dispersion, and non-stationary transmission dynamics.
 
@@ -55,10 +55,10 @@ This dataset is used to demonstrate CIRL on real epidemic data characterized by 
 
 Baseline and comparison methods implemented in this repository follow the experimental setup described in:
 
-> Wang, L., Zhang, Y., & Wang, X. (2022).
+> Song, P., Xiao, Y. (2022).
 > *Estimating time-varying reproduction number by deep learning techniques*.
-> **Chaos, Solitons & Fractals**, 157, 111947.
-> DOI: [https://doi.org/10.1016/j.chaos.2022.111947](https://doi.org/10.1016/j.chaos.2022.111947)
+> **Journal of Applied Analysis & Computation**, 157, 111947.
+> DOI: [https://doi.org/10.1016/j.chaos.2022.111947](http://www.jaac-online.com/article/doi/10.11948/20220136)
 
 Where applicable, baseline implementations are adapted from publicly released code or re-implemented to ensure consistency of experimental conditions.
 
