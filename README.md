@@ -78,21 +78,6 @@ Where applicable, baseline implementations are adapted from publicly released co
 
 ---
 
-### Code Structure
-
-* `data/`
-  Processed incidence data and simulation scripts.
-* `models/`
-  Conditional inverse mapping network and observation models.
-* `train/`
-  Training and evaluation pipelines.
-* `experiments/`
-  Scripts for reproduction number inference and incidence reconstruction.
-* `baselines/`
-  Implementations of comparison methods.
-
----
-
 
 ### Disclaimer
 
