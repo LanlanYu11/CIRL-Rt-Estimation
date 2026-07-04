@@ -2,7 +2,7 @@
 
 ### Conditional Inverse Learning of Time-Varying Reproduction Numbers Inference (CIRL)
 
-This repository provides the reference implementation for **Conditional Inverse Reproduction Learning (CIRL)**, a physics-informed statistical learning framework for estimating time-varying reproduction numbers ( R_t ) from epidemic incidence data under renewal dynamics.
+This repository provides the reference implementation for **Conditional Inverse Reproduction Learning (CIRL)**, a renewal-based conditional inverse learning framework for estimating time-varying reproduction numbers ( R_t ) from epidemic incidence data under renewal dynamics.
 
 The code supports both **simulated epidemics** and **real-world surveillance data**, and includes implementations for reproduction number inference as well as forward reconstruction of incidence trajectories.
 
