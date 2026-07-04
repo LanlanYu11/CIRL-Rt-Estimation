@@ -16,9 +16,9 @@ All datasets used in this repository are derived from **publicly available sourc
 
 Synthetic epidemic data are generated following the simulation framework described in:
 
-> Parag, K. V., & Donnelly, C. A. (2022).
-> *Using information theory to optimise epidemic models for real-time prediction and control*.
-> **PLoS Computational Biology**, 18(11), e1011021.
+> Dai, C., Zhou, D., Gao, B., & Wang, K. (2023).
+> *A new method for the joint estimation of instantaneous reproductive number and serial interval during epidemics*.
+> **PLoS Computational Biology**, 19(3), e1011021.
 > DOI: [https://doi.org/10.1371/journal.pcbi.1011021](https://doi.org/10.1371/journal.pcbi.1011021)
 
 These simulations are used to evaluate estimation accuracy, responsiveness to regime changes, and robustness under controlled conditions.
@@ -47,6 +47,7 @@ The COVID-19 incidence data for Italy (Ontario-level aggregation, 2020) are sour
 > **Journal of Applied Analysis & Computation**, 157, 111947.
 > DOI: [https://doi.org/10.1016/j.chaos.2022.111947](http://www.jaac-online.com/article/doi/10.11948/20220136)
 
+
 This dataset is used to demonstrate CIRL on real epidemic data characterized by reporting noise, over-dispersion, and non-stationary transmission dynamics.
 
 ---
@@ -54,6 +55,19 @@ This dataset is used to demonstrate CIRL on real epidemic data characterized by 
 ### Baseline Methods
 
 Baseline and comparison methods implemented in this repository follow the experimental setup described in:
+
+> Cori, A., Ferguson, N. M., Fraser, C., & Cauchemez, S. (2013).
+> *A new framework and software to estimate time-varying reproduction numbers during epidemics*.
+> **American Journal of Epidemiology**, 178(9), 1505–1512.
+> DOI: [https://doi.org/10.1093/aje/kwt133](https://doi.org/10.1093/aje/kwt133)
+
+> Liu, J., Cai, Z., Gustafson, P., & McDonald, D. J. (2024). 
+> *rtestim: Time-varying reproduction number estimation with trend filtering*.
+> **PLOS Computational Biology**, 20(8), e1012324.
+
+> Abbott, S., Hellewell, J., Thompson, R. N., Sherratt, K., Gibbs, H. P., Bosse, N. I., ... & Funk, S. (2020). 
+> *Estimating the time-varying reproduction number of SARS-CoV-2 using national and subnational case counts*. 
+> **Wellcome Open Research**, 5(112), 112.
 
 > Song, P., Xiao, Y. (2022).
 > *Estimating time-varying reproduction number by deep learning techniques*.
@@ -79,20 +93,6 @@ Where applicable, baseline implementations are adapted from publicly released co
 
 ---
 
-### Usage Example
-
-This repository provides an end-to-end example for estimating ( R_t ) and reconstructing ( I_t ) using COVID-19 (Italy, 2020) data:
-
-```bash
-python run_cirl_covid_italy.py
-```
-
-The script outputs:
-
-* Estimated time-varying reproduction numbers ( \hat{R}_t )
-* Reconstructed incidence trajectories ( \hat{I}_t )
-
----
 
 ### Disclaimer
 
